@@ -60,7 +60,7 @@ df
 df.info()
 
 
-# Для удобства работы с послед. данными переводим колонки с типом данных `datetime` в нужный формат
+# For the convenience of working with the latest data, we translate columns with the datetime data type into the desired format
 
 # In[9]:
 
@@ -75,9 +75,9 @@ df["dropoff_datetime"] = pd.to_datetime(df["dropoff_datetime"])
 df.info()
 
 
-# ## 1.2 Форматирование данных
+# ## 1.2 Formatting data
 
-# ### 1.2.1 Осмотр данных на пропуски
+# ### 1.2.1 Inspection of data for omissions
 
 # In[11]:
 
